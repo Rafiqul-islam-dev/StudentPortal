@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Parent Portal</title>
+
+     <!-- Favicon -->
+    
+    <!-- page css -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Core css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header">
+                <div class="logo logo-dark">
+                    <a href="index.html">
+                        <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="logo logo-white">
+                    <a href="index.html">
+                        <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="nav-wrap">
+                    <ul class="nav-left">
+                        <li class="desktop-toggle">
+                            <a href="javascript:void(0);">
+                                <img src="assets/images/logo/humbarger.png" alt="">
+                            </a>
+                        </li>
+                        <li class="mobile-toggle">
+                            <a href="javascript:void(0);">
+                                <img src="assets/images/logo/humbarger.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="scholnameDestop" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                              Monipur uchcha Vidyalaya and college
+                            </a>
+                            <a class="scholnameMobil" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                <img src="assets/images/logo/Odhyyon.svg" alt="">
+                           </a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <!-- <li class="">
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#quick-view">
+                                <i class="anticon anticon-appstore">setting</i>
+                            </a>
+                        </li> -->
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/Announcement.png" alt="">
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/messaging.png" alt="">
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/notification.png" alt="">
+                            </a>
+                            <div class="dropdown-menu pop-notification">
+                                <div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-dark font-weight-semibold m-b-0">
+                                        <i class="anticon anticon-bell"></i>
+                                        <span class="m-l-10">Notification</span>
+                                    </p>
+                                    <a class="btn-sm btn-default btn" href="javascript:void(0);">
+                                        <small>View All</small>
+                                    </a>
+                                </div>
+                                <div class="relative">
+                                    <div class="overflow-y-auto relative scrollable" style="max-height: 300px">
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-blue avatar-icon">
+                                                    <i class="anticon anticon-mail"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You received a new message</p>
+                                                    <p class="m-b-0"><small>8 min ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-cyan avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">New user registered</p>
+                                                    <p class="m-b-0"><small>7 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-red avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">System Alert</p>
+                                                    <p class="m-b-0"><small>8 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 ">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-gold avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You have a new update</p>
+                                                    <p class="m-b-0"><small>2 days ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="dropdown dropdown-animated scale-left text-center">
+                            <div class="pointer avatarmobil" data-toggle="dropdown">
+                                <div class="avatar avatar-image avatar-imageTop m-h-10 m-r-15">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                                <div class="avatorname">
+                                    <p class="m-b-0 text-dark font-weight-semibold">Marshall Nichols</p>
+                                </div>
+                            </div>
+                            <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                            <span class="m-l-10">Account Setting</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-project"></i>
+                                            <span class="m-l-10">Projects</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                            <span class="m-l-10">Logout</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>    
+            <!-- Header END -->
+
+            <!---Header Mobile-->
+            <div class="header headermobil mt-5">
+                
+                <div class="nav-wrap">
+                    <ul class="nav-leftMobil">
+                        <li class="navSchool">
+                            <a class="scholnameMobilNav" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                              Monipur uchcha Vidyalaya and college
+                            </a>
+                            
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li class="dropdown dropdown-animated scale-left text-center">
+                            <div class="pointer" data-toggle="dropdown">
+                                <div class="avatar avatar-image avatar-imageTop">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                                <div class="avatar avatar-image avatar-imageTop ">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                            </div>
+                            <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                            <span class="m-l-10">Account Setting</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-project"></i>
+                                            <span class="m-l-10">Projects</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                            <span class="m-l-10">Logout</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>    
+            <!---Header Mobile End-->
+
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                <div class="side-nav-inner">
+                  <ul class="side-nav-menu scrollable">
+                    <li class="nav-item dropdown open">
+                        <a class="dropdown-toggle" href="studentdashbord.html">
+                            <span class="icon-holder">
+                                <img src="assets/images/fessicon/icon_dashboard.svg" alt="">
+                            </span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown open">
+                      <a class="dropdown-toggle" href="studentinfo.html">
+                          <span class="icon-holder">
+                              <img src="assets/images/Icon/studentprofile.svg" alt="">
+                          </span>
+                          <span class="title">Student Profile</span>
+                      </a>
+                  </li>
+                  <li class="nav-item dropdown open">
+                    <a class="dropdown-toggle" href="updateStudentinfo.html">
+                        <span class="icon-holder">
+                            <img src="assets/images/Icon/Updateinfo.svg" alt="">
+                        </span>
+                        <span class="title">Update Student Info</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown open">
+                  <a class="dropdown-toggle" href="Eca.html">
+                      <span class="icon-holder">
+                          <img src="assets/images/Icon/ECA.svg" alt="">
+                      </span>
+                      <span class="title">ECA</span>
+                  </a>
+              </li>
+                </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="row mb-3">
+                      <div class="col-lg-12 mobilpadding">
+                        <nav class="navbar navbar-expand-lg navbar-light stickyNav" id="MobileToggle">
+                            
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav ModuleNav">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="index.html">
+                                      <img src="assets/images/Icon/dashboardicon.svg" alt=""> <br>
+                                      Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="studentdashbord.html">
+                                    <img src="assets/images/Icon/Student.svg" alt=""> <br>
+                                      Student Profile
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="fessDashbord.html">
+                                      <img src="assets/images/Icon/Fees.svg" alt=""> <br>
+                                        Fees
+                                      </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="attendancedashbord.html">
+                                    <img src="assets/images/Icon/Attendance.svg" alt=""> <br>
+                                      Attendance
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="resultDashbord.html">
+                                        <img src="assets/images/Icon/result.svg" alt=""> <br>
+                                        Exam & Result
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="messageDashbord.html">
+                                        <img src="assets/images/Icon/Communication.svg" alt=""> <br>
+                                        Message
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="requestDashbord.html">
+                                        <img src="assets/images/Icon/Request.svg" alt=""> <br>
+                                        Request
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="lmsDashbord.html">
+                                        <img src="assets/images/Icon/LMS.svg" alt=""> <br>
+                                        LMS
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="assets/images/Icon/TimeTable.svg" alt=""> <br>
+                                        Time Table
+                                    </a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </nav>
+                          <div class="hideshow text-center">
+                              <!-- <img id="menuToggle" src="assets/images/Icon/down-chevron.svg" alt=""> -->
+                              <button type="button" id="menuToggle" class="Hidemybtn" >Hide</button>
+
+                              <button type="button" id="menuToggle2" class="Hidemybtn" style="display: none;" >Show</button>
+                          </div>
+                        <!-- <div class="protalModule">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">StudentProfile</a></li>
+                                <li><a href="">Attendance</a></li>
+                                <li><a href="">Fees</a></li>
+                                <li><a href="">Result</a></li>
+                                <li><a href="">Request</a></li>
+                                <li><a href="">Notice & SMS</a></li>
+                                <li><a href="">Curriculam</a></li>
+                                <li><a href="">Information</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    </div>
+                   <div class="row">
+                       <div class="col-lg-3">
+                           <div class="studentprofileInf">
+                               <div class="profileimage text-center">
+                                   <img src="assets/images/avatars/thumb-10.jpg" alt="">
+                               </div>
+                               <div class="profilinfName text-center">
+                                   <h4>Jaima Jarnaj Snigdha</h4>
+                                   <p><span>ID</span>25823</p>
+                               </div>
+                               <!---profilename and image End-->
+
+
+                               <div class="studentclassinf">
+                                <!-----information ClassWise----->
+                                <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                     <h4>Version</h4>
+                                     <h5>Bangla</h5>
+                                    </div>
+                                    <div class="studentclasssinfopartr2">
+                                     <h4>Admission Date</h4>
+                                     <h5>01-02-2018</h5>
+                                   </div>
+                                </div>
+                               
+                                <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                        <h4>Session</h4>
+                                        <h5>Summer 2018</h5>
+                                    </div>
+                                   <div class="studentclasssinfopartr2">
+                                        <h4>Roll</h4>
+                                        <h5>2018</h5>
+                                   </div>
+                                  </div>
+                                  
+                                   <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                        <h4>Branch</h4>
+                                        <h5>Dhanmondi</h5>
+                                   </div>
+                                   <div class="studentclasssinfopartr2">
+                                        <h4>Reg. No</h4>
+                                        <h5>0215695</h5>
+                                   </div>
+                                   </div>
+                                   
+                                   <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                        <h4>Class</h4>
+                                        <h5>Class One</h5>
+                                   </div>
+                                   <div class="studentclasssinfopartr2">
+                                        <h4>Shift</h4>
+                                        <h5>ASDF</h5>
+                                   </div>
+                                   </div>
+                                   
+                                   <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                        <h4>Section</h4>
+                                        <h5>C</h5>
+                                   </div>
+                                   <div class="studentclasssinfopartr2">
+                                        <h4>Group</h4>
+                                        <h5>N/A</h5>
+                                   </div>
+                                   </div>
+                                   
+                                   <div class="stuinfomain">
+                                    <div class="studentclasssinfopartr1">
+                                        <h4>Student Type</h4>
+                                        <h5>With TC</h5>
+                                   </div>
+                                   <div class="studentclasssinfopartr2">
+                                        <!-- <h4>Admission Date</h4>
+                                        <h5>01-02-2018</h5> -->
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="firstAdmitted text-center">
+                                <h4>First Admitted</h4>
+                                <div class="admissionclass">
+                                    <h4>Class</h4>
+                                    <h5>Six</h5>
+                                </div>
+                                <div class="admissionclass">
+                                    <h4>Month</h4>
+                                    <h5>January</h5>
+                                </div>
+                                <div class="admissionclass">
+                                    <h4>Year</h4>
+                                    <h5>2020</h5>
+                                </div>
+                            </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-9">
+                            <div class="studentbasicInf">
+                                <ul class="nav nav-pills mb-3 sudentAllinf" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" id="pills-Basic-tab" data-toggle="pill" href="#pills-Basic" role="tab" aria-controls="pills-Basic" aria-selected="true">Basic Information</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="pills-Guardian-tab" data-toggle="pill" href="#pills-Guardian" role="tab" aria-controls="pills-Guardian" aria-selected="false">Guardian</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" id="pills-Academic-tab" data-toggle="pill" href="#pills-Academic" role="tab" aria-controls="pills-Academic" aria-selected="false">Academic</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-Sibling-tab" data-toggle="pill" href="#pills-Sibling" role="tab" aria-controls="pills-Sibling" aria-selected="false">Sibling</a>
+                                    </li>
+                                  </ul>
+                                  <div class="tab-content studentPillContent" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-Basic" role="tabpanel" aria-labelledby="pills-Basic-tab">
+                                        <form>
+                                            <div class="row">
+                                              <div class="col-lg-12">
+                                                <div class="form-row studentinput">
+                                                  <div class="col-md-4">
+                                                    <label class="studentinfolabel">Name</label>
+                                                    <input type="text" class="form-control" value="Enter Name" readonly>
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                    <label class="studentinfolabel">Name (Bangla)</label>
+                                                    <input type="text" class="form-control"  value="Enter Name (Bangla)" readonly>
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                    <label class="studentinfolabel">Gender <span class="Madatory">*</span></label>
+                                                    <input type="text" class="form-control" value="Enter Gender" readonly>
+                                                  </div>
+                                                </div>
+                                                <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Version <span class="Madatory">*</span> </label>
+                                                      <input type="text" class="form-control" placeholder="Enter Gender" required>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Session <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control"  placeholder="Enter Session" required>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Class <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" placeholder="Enter Class" required>
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Roll <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" placeholder="Enter Roll" required>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Registration No</label>
+                                                      <input type="text" class="form-control"  placeholder="Enter Registration No">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Group <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control"  placeholder="Enter Group" required>
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Section <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" placeholder="Enter Section" required>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Branch <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" placeholder="Enter Branch" required>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Shift <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" placeholder="Enter Shift" required>
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Student ID <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control" value="Enter Student ID" readonly>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Stu. Type <span class="Madatory">*</span></label>
+                                                      <input type="text" class="form-control"  value="Stu. Type" readonly>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Admission Date</label>
+                                                      <input type="text" class="form-control" placeholder="RS/MUN">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Religion</label>
+                                                      <input type="text" class="form-control" placeholder="Religion">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Blood Group</label>
+                                                      <input type="text" class="form-control"  placeholder="Enter Blood Group">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Nationality</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Nationality">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Date of Birth<span class="Madatory">*</span></label>
+                                                      <input type="date" class="form-control" placeholder="Religion">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Age<span class="Madatory">*</span></label>
+                                                      <input type="number" class="form-control"  placeholder="Enter Age">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Physical Drawback</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Physical Drawback">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Description</label>
+                                                      <input type="text" class="form-control" placeholder="Description">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Medicine Instruction</label>
+                                                      <input type="text" class="form-control"  placeholder="Enter Medicine Instruction">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Height(ft)</label>
+                                                      <input type="number" class="form-control" placeholder="Enter Physical Drawback">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row studentinput">
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">Weight(kg)</label>
+                                                      <input type="number" class="form-control" placeholder="Weight">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                      <label class="studentinfolabel">SMS Notification No</label>
+                                                      <input type="text" class="form-control"  value="Enter Medicine Instruction" readonly>
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                            <div class="row">
+                                              <div class="col-lg-12">
+                                                <button class="updatesave"> <img src="assets/images/Icon/floppy-disk (1).svg" alt=""></button>
+                                              </div>
+                                            </div>
+                                          </form>
+
+                                          <div class="basicingtable">
+                                            <div class="fesspaymentHead">
+                                              <div class="fessTitle">
+                                                  <h3>Previous Institute Info</h3>
+                                              </div>
+                                              <!-- <div class="voucherBtn text-right">
+                                                  <a href=""  data-toggle="modal" data-target=".bd-example-modal-lgIns" style="background-color: #045CA9;">Add Institute</a> 
+                                              </div> -->
+                                          </div>
+                                          <div class="table-responsive">
+                                            <table class="table table-hover">
+                                              <thead style="background: #F5F6FA 0% 0% no-repeat padding-box; border-radius: 5px;">
+                                                <tr>
+                                                  <th >Name</th>
+                                                  <th >Class</th>
+                                                  <th >Section</th>
+                                                  <th >Group</th>
+                                                  <th >Session</th>
+                                                  <th >Version</th>
+                                                  <th >GPA</th>
+                                                  <th >TC No</th>
+                                                  <th >Date</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                  <td></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                         <!---Institute Info Modal start---->
+
+                                       <div class="modal fade bd-example-modal-lgIns" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg" role="document">
+                                          <div class="modal-content pPortalModal">
+                                            <div class="modal-header pPortalModalHead">
+                                              <h5 class="modal-title text-center" id="exampleModalScrollableTitle">Institute</h5>
+                                            </div>
+                                            <div class="modal-body pPortalModalBody">
+                                              <form>
+                                                <div class="form-group row">
+                                                  <label  class="col-sm-3 col-form-label">Institute Name</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text" class="form-control" placeholder="Enter Exam Name">
+                                                  </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                  <label  class="col-sm-3 col-form-label">Class</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text" class="form-control" placeholder="Enter Institute Name">
+                                                  </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label  class="col-sm-3 col-form-label">Group</label>
+                                                    <div class="col-sm-8">
+                                                      <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>Shapla</option>
+                                                        <option>Dolonchapa</option>
+                                                        <option>Angkur</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                                  
+                                                  <div class="form-group row">
+                                                    <label  class="col-sm-3 col-form-label">Session</label>
+                                                    <div class="col-sm-8">
+                                                      <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>2020</option>
+                                                        <option>2019</option>
+                                                        <option>2018</option>
+                                                        <option>2017</option>
+                                                        <option>2016</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-group row">
+                                                    <label  class="col-sm-3 col-form-label">Version</label>
+                                                    <div class="col-sm-8">
+                                                      <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>Bangla</option>
+                                                        <option>English</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                                <div class="form-group row">
+                                                  <label  class="col-sm-3 col-form-label">GPA</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text" class="form-control" placeholder="Enter Roll">
+                                                  </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label  class="col-sm-3 col-form-label">TC No</label>
+                                                    <div class="col-sm-8">
+                                                        <input type="text" class="form-control" placeholder="Enter Reg. No">
+                                                    </div>
+                                                  </div>
+                                                <div class="form-group row">
+                                                  <label  class="col-sm-3 col-form-label">Date</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="date" class="form-control" placeholder="Enter GPA">
+                                                  </div>
+                                                </div>
+                                              </form>
+                                            </div>
+                                            <div class="modal-footer pPortalModalFooter">
+                                              <button type="button" class="btn btn-secondary pPortalclose" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary">Save</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!---Institute Info Modal End---->
+
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-Guardian" role="tabpanel" aria-labelledby="pills-Guardian-tab">
+                                      <form>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="studentinput">
+                                                    <h3>Father Information</h3>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Father Name <span class="Madatory">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" readonly>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Qualification</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Profession</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Profession" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Monthly Income</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Monthly Income" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Office Address</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Mobile <span class="Madatory">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" readonly>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Email</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">TIN</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">NID No</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Father's photo</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="studentinput">
+                                                    <h3>Mother Information</h3>
+                                                    <div class="col-md-8">
+                                                        <label class="studentinfolabel">Father Name <span class="Madatory">*</span></label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" readonly>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Qualification</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Profession</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Profession" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Monthly Income</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Monthly Income" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Office Address</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Mobile <span class="Madatory">*</span></label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" readonly>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Email</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">TIN</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">NID No</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                      <div class="col-md-8">
+                                                        <label class="studentinfolabel">Father's photo</label>
+                                                        <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                          <div class="col-lg-12">
+                                            <button class="updatesave"> <img src="assets/images/Icon/floppy-disk (1).svg" alt=""></button>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-Academic" role="tabpanel" aria-labelledby="pills-Academic-tab">
+                                        <div class="addstuinfBtn text-right">
+                                            <a href="" data-toggle="modal" data-target=".bd-example-modal-lg">Add New</a>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead class="tableHead">
+                                                  <tr>
+                                                    <th scope="col">Exam Name</th>
+                                                    <th scope="col">Institute Name</th>
+                                                    <th scope="col">Year</th>
+                                                    <th scope="col">Roll No</th>
+                                                    <th scope="col">GPA</th>
+                                                    <th scope="col">Board</th>
+                                                    <th scope="col">Group</th>
+                                                    <th scope="col">Action</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td>English</td>
+                                                    <td>2019</td>
+                                                    <td>Mani</td>
+                                                    <td>Morning</td>
+                                                    <td>Six</td>
+                                                    <td>None</td>
+                                                    <td>B</td>
+                                                    <td>
+                                                        <a href=""><img src="assets/images/Delete.svg" alt=""></a>
+                                                        <a href=""><img src="assets/images/View.svg" alt=""></a>
+                                                    </td>
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <td>English</td>
+                                                    <td>2019</td>
+                                                    <td>Mani</td>
+                                                    <td>Morning</td>
+                                                    <td>Six</td>
+                                                    <td>None</td>
+                                                    <td>B</td>
+                                                    <td>
+                                                        <a href=""><img src="assets/images/Delete.svg" alt=""></a>
+                                                        <a href=""><img src="assets/images/View.svg" alt=""></a>
+                                                    </td>
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <td>English</td>
+                                                    <td>2019</td>
+                                                    <td>Mani</td>
+                                                    <td>Morning</td>
+                                                    <td>Six</td>
+                                                    <td>None</td>
+                                                    <td>B</td>
+                                                    <td>
+                                                        <a href=""><img src="assets/images/Delete.svg" alt=""></a>
+                                                        <a href=""><img src="assets/images/View.svg" alt=""></a>
+                                                    </td>
+                                                    
+                                                  </tr>
+                                                  
+                                                </tbody>
+                                              </table>
+                                          </div>
+                                          <!---Academic Info Modal start---->
+
+                                          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                              <div class="modal-content pPortalModal">
+                                                <div class="modal-header pPortalModalHead">
+                                                  <h5 class="modal-title text-center" id="exampleModalScrollableTitle">Academic Info</h5>
+                                                </div>
+                                                <div class="modal-body pPortalModalBody">
+                                                  <form>
+                                                    
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Institute Name <span class="Madatory">*</span></label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" value="Monipur High School" readonly>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Address <span class="Madatory">*</span></label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" placeholder="Enter Name" readonly>
+                                                        </div>
+                                                      </div>
+                                                      
+                                                    <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Group</label>
+                                                        <div class="col-sm-8">
+                                                          <select class="form-control" id="exampleFormControlSelect1">
+                                                            <option>Shapla</option>
+                                                            <option>Dolonchapa</option>
+                                                            <option>Angkur</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Exam Year <span class="Madatory">*</span></label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" value="2018" readonly>
+                                                          <!-- <select class="form-control" id="exampleFormControlSelect1">
+                                                            <option>2020</option>
+                                                            <option>2019</option>
+                                                            <option>2018</option>
+                                                            <option>2017</option>
+                                                            <option>2016</option>
+                                                          </select> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Pass Year <span class="Madatory">*</span></label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" value="2018" readonly>
+                                                            
+                                                          <!-- <select class="form-control" id="exampleFormControlSelect1">
+                                                            <option>2020</option>
+                                                            <option>2019</option>
+                                                            <option>2018</option>
+                                                            <option>2017</option>
+                                                            <option>2016</option>
+                                                          </select> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Session</label>
+                                                        <div class="col-sm-8">
+                                                          <select class="form-control" id="exampleFormControlSelect1">
+                                                            <option>2020</option>
+                                                            <option>2019</option>
+                                                            <option>2018</option>
+                                                            <option>2017</option>
+                                                            <option>2016</option>
+                                                          </select>
+                                                        </div>
+                                                      </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Roll <span class="Madatory">*</span></label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" value="201858" readonly>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label  class="col-sm-3 col-form-label">Reg. No</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" placeholder="Enter Reg. No">
+                                                        </div>
+                                                      </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">GPA <span class="Madatory">*</span></label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" value="5.0" readonly>
+                                                      </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                                <div class="modal-footer pPortalModalFooter">
+                                                  <button type="button" class="btn btn-secondary pPortalclose" data-dismiss="modal">Close</button>
+                                                  <button type="button" class="btn btn-primary">Save</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!---Academic Info Modal End---->
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                      <form>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <div class="studentinput">
+                                                    <h3>Present Address</h3>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Address <span class="Madatory">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">District</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Police Station</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Profession" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Post Office</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Monthly Income" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Post Code</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="studentinput">
+                                                    <h3>Permanent Address</h3>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Address <span class="Madatory">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">District</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Police Station</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Profession" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Post Office</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Monthly Income" required>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                    <label class="studentinfolabel">Post Code</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Father Name" required>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <form class="buttons studeninfoCheck">
+                                                    <label>
+                                                <input type="checkbox" name="check">
+                                                        <span class="label-text">Same</span>
+                                                </input>
+                                              </label>
+                                                   
+                                                </form>
+                                            </div>
+                                            <div class="col-lg-8 mt-3">
+                                              <div class="studentinput">
+                                                  <h3>Emergency contact</h3>
+                                                  <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                      <label >Name</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Name">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                      <label >Relation</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Relation">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                      <label >Address</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Address">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                      <label >Contact Number</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Number">
+                                                    </div>
+                                                  </div>
+                                                  <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                      <label >Email</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Email">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                      <label >NID No</label>
+                                                      <input type="text" class="form-control" placeholder="Enter Nid">
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                        <div class="row">
+                                          <div class="col-lg-12">
+                                            <button class="updatesave"> <img src="assets/images/Icon/floppy-disk (1).svg" alt=""></button>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-Sibling" role="tabpanel" aria-labelledby="pills-Sibling-tab">
+                                        <div class="addstuinfBtn text-right">
+                                            <a href=""  data-toggle="modal" data-target=".bd-example-modal-lg1">Add New</a>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead class="tableHead">
+                                                  <tr>
+                                                    <th scope="col">Sibling ID</th>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Shift</th>
+                                                    <th scope="col">Class</th>
+                                                    <th scope="col">Srction</th>
+                                                    
+                                                    <th scope="col">Action</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                  
+                                                  </tr>
+                                                  
+                                                  
+                                                </tbody>
+                                              </table>
+                                          </div>
+                                          <!---Academic Info Modal start---->
+
+                                          <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                              <div class="modal-content pPortalModal">
+                                                <div class="modal-header pPortalModalHead">
+                                                  <h5 class="modal-title text-center" id="exampleModalScrollableTitle">Add Sibling Info</h5>
+                                                </div>
+                                                <div class="modal-body pPortalModalBody">
+                                                  <form>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Sibling ID <span class="Madatory">*</span></label>
+                                                      <div class="col-sm-8">
+                                                        <input type="text" class="form-control" value="20154" readonly>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Name</label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" placeholder="Enter Name">
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Roll</label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" placeholder="Enter Roll">
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Version</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>English</option>
+                                                          <option>Bangla</option>
+                                                          
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Session</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>2020</option>
+                                                          <option>2019</option>
+                                                          <option>2018</option>
+                                                          <option>2017</option>
+                                                          <option>2016</option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Branch</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Main</option>
+                                                          <option>Main1</option>
+                                                          <option>Main2</option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Shift</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Day</option>
+                                                          <option>Morning</option>
+                                                          <option>Night</option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Class</label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" placeholder="Enter Class">
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Group</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Shapla</option>
+                                                          <option>Dolonchapa</option>
+                                                          <option>Angkur</option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Section</label>
+                                                      <div class="col-sm-8">
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>A</option>
+                                                          <option>B</option>
+                                                          <option>C</option>
+                                                        </select>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">Student Type</label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" placeholder="Enter Student Type">
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                      <label  class="col-sm-3 col-form-label">House Name</label>
+                                                      <div class="col-sm-8">
+                                                          <input type="text" class="form-control" placeholder="Enter House Name">
+                                                      </div>
+                                                    </div>
+                                                  </form>
+                                                </div>
+                                                <div class="modal-footer pPortalModalFooter">
+                                                  <button type="button" class="btn btn-secondary pPortalclose" data-dismiss="modal">Close</button>
+                                                  <button type="button" class="btn btn-primary">Save</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <!---Academic Info Modal End---->
+                                    </div>
+                                  </div>
+                            </div>
+                       </div>
+                   </div>
+                
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="footer">
+                    <div class="footer-content">
+                        <p class="m-b-0">Copyright ©2020 Addie Soft Ltd. All rights reserved.</p>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+            <!-- Search Start-->
+            
+            <!-- Search End-->
+
+            <!-- Quick View START -->
+            
+            <!-- Quick View END -->
+        </div>
+    </div>
+
+    
+    <!-- Core Vendors JS -->
+    <script src="assets/js/vendors.min.js"></script>
+
+    <!-- page js -->
+    <!-- <script src="assets/vendors/chartjs/Chart.min.js"></script>
+    <script src="assets/js/pages/dashboard-default.js"></script> -->
+
+    <!-- Core JS -->
+    <script src="assets/js/app.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per month'],
+      ['Absent',     11],
+      ['Present',      2],
+      
+    ]);
+
+    var options = {
+      title: '',
+      pieHole: 0.5,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+    chart.draw(data, options);
+  }
+</script>
+<script type="text/javascript">
+    $('.side-nav-menu').on('click', 'li', function(){
+        $('.side-nav-menu li.inneractive').removeClass('inneractive');
+        $(this).addClass('inneractive');
+    })
+</script>
+<script>
+  $(document).ready(function(){
+      $("#menuToggle").click(function(){
+          $("#MobileToggle").fadeToggle();
+      });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $("#menuToggle2").click(function(){
+          $("#MobileToggle").fadeToggle();
+      });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+      $(".Hidemybtn").click(function(){
+          $(".Hidemybtn").show();
+          $(this).hide();
+      });
+  });
+</script>
+</body>
+
+</html>

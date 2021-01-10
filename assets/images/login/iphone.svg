@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.75" height="14" viewBox="0 0 8.75 14">
+  <g id="iphone" transform="translate(-96)">
+    <g id="Group_15002" data-name="Group 15002" transform="translate(96)">
+      <path id="Path_20225" data-name="Path 20225" d="M103.875,0h-7A.876.876,0,0,0,96,.875v12.25a.876.876,0,0,0,.875.875h7a.875.875,0,0,0,.875-.875V.875A.876.876,0,0,0,103.875,0Zm-3.5,13.125a.875.875,0,1,1,.875-.875A.875.875,0,0,1,100.375,13.125Zm3.5-2.625h-7V1.75h7Z" transform="translate(-96)" fill="#c1c1c1"/>
+    </g>
+  </g>
+</svg>

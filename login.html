@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    <section id="loginportal">
+        <div class="container-login">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="loginsliderHead">
+                                <div class="loginsliderHeadlogo">
+                                    <img src="assets/images/logo/Odhyyon.svg" alt="">
+                                </div>
+                                <div class="loginsliderHeadName">
+                                    <h3>Welcome to <span>Parents Portal</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sliderimage">
+                                <img src="assets/images/login/Image 17.png" class="img-fulid w-100" alt="">
+    
+                                <div class="slidertext">
+                                        <h4>Get information about result, Attendance, notice & more</h4>
+                                        <p>Parent portal helps parents to log in to the system for seeing child’s data, tracking attendance, read teacher’s comments on child’s performance, and thus able to contact teachers for expressing</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="col-lg-5 offset-1">
+                      <div class="tab-content login-plii" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                            <div class="loginschool text-center">
+                                <img src="assets/images/login/MUBClogo.svg" alt="">
+                                
+                                <h3> Monipur uchcha Vidyalaya and college</h3>
+                                </div>
+                                <div class="logindetails text-center">
+                                <p>Login Here</p>
+                                <form>
+                                    <div class="form-group logingroup row">
+                                      <div class="col-sm-12">
+                                          <img src="assets/images/login/001-user.svg" class="userIcon" alt="">
+                                        <input type="text" class="form-control logininput" placeholder="Enter Id number">
+                                      </div>
+                                    </div>
+                                    <div class="form-group logingroup row">
+                                        <div class="col-sm-12">
+                                            <img src="assets/images/login/passwordicon22.svg" class="userIcon" alt="">
+                                          <input type="text" class="form-control logininput" placeholder="Enter Password">
+                                        </div>
+                                      </div>
+                                      <button type="submit" class="LoginhereBtn">Click here to login</button>
+
+                                      <div class="form-check text-left logincheckbox">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                          Keep me Logged in
+                                        </label>
+                                      </div>
+                                  </form>
+                                  <div class="googlelogin">
+                                    <p>or</p>
+                                      <a href="">
+                                        <img src="assets/images/login/google-icon.svg" alt="">
+                                        login with Google
+                                      </a>
+                                  </div>
+                                </div>                                
+                        </div>
+                        <div class="tab-pane fade" id="pills-reg" role="tabpanel" aria-labelledby="pills-reg-tab">
+                          <div class="loginschool text-center">
+                                <img src="assets/images/login/MUBClogo.svg" alt="">
+                                
+                                <h3> Monipur uchcha Vidyalaya and college</h3>
+                                </div>
+                                <div class="logindetails text-center">
+
+                                  <!----Part1-->
+                                  <div class="regstionsubmit" id="Hideregstion">
+                                    <div class="regstionvery">
+                                        <div class="Varification">
+                                            <img src="assets/images/login/Changepassword2.svg" alt="">
+                                            <h5>Verification</h5>
+                                        </div>
+                                        <div class="Registration">
+                                            <img src="assets/images/login/clipboard2.svg" alt="">
+                                            <h5>Registration</h5>
+                                        </div>
+                                    </div>
+                             
+                                
+                                    <div class="form-group logingroup row">
+                                      <div class="col-sm-12">
+                                          <img src="assets/images/login/001-user.svg" class="userIcon" alt="">
+                                        <input type="text" class="form-control logininput" placeholder="Enter id number">
+                                      </div>
+                                    </div>
+                                    <div class="form-group logingroup row">
+                                        <div class="col-sm-12">
+                                            <img src="assets/images/login/loginMobil.svg" class="userIcon" alt="">
+                                          <input type="text" class="form-control logininput" placeholder="Enter mobile no or email">
+                                        </div>
+                                      </div>
+
+                                      <div id="app">
+                                        <div class="visible"></div>
+                                      <div class="g-recaptcha" data-sitekey=" 6LfLMnEUAAAAACpoc9UXVz7ywg6CqgK6y3YGR_8t"></div>
+                                        <div class="invisible"></div>
+                                      
+                                      </div>
+                                      <button type="submit" class="regSubmit" id="sendOtpShow">Submit</button>
+
+                                 </form>
+                               </div>
+                               <!----Part1 End-->
+
+                               <!--Part2-->
+                               <div class="sentOtp" id="ShowOtp" style="display: none;">
+                                <div class="regstionvery">
+                                  <div class="Varification">
+                                      <img src="assets/images/login/Changepassword2.svg" alt="">
+                                      <h5>Verification</h5>
+                                  </div>
+                                  <div class="Registration">
+                                      <img src="assets/images/login/clipboard2.svg" alt="">
+                                      <h5>Registration</h5>
+                                  </div>
+                                 </div>
+                                   <div class="idmatchname">
+                                   
+                                       <div class="studentname">
+                                            <div class="studentnameimg">
+                                                <img src="assets/images/login/001-user.svg" alt="">
+                                            </div>
+                                            <div class="studentnameimgdetails">
+                                                <p>Student Name</p>
+                                                <h4>Jaima Jarnaj Snigdha</h4>
+                                            </div>
+                                       </div>
+                                       <div class="parentsInf">
+                                           <div class="motherinfo">
+                                            <div class="studentnameimg">
+                                                <img src="assets/images/login/001-user.svg" alt="">
+                                            </div>
+                                            <div class="studentnameimgdetails">
+                                                <p>Father's Name</p>
+                                                <h4>Jaima Jarnaj Snigdha</h4>
+                                            </div>
+                                           </div>
+                                           <div class="fatherinfo">
+                                            <div class="studentnameimg">
+                                                <img src="assets/images/login/001-user.svg" alt="">
+                                            </div>
+                                            <div class="studentnameimgdetails">
+                                                <p>Mother's Name</p>
+                                                <h4>Jaima Jarnaj Snigdha</h4>
+                                            </div>
+                                           </div>
+                                       </div>
+                                       <div class="choiseOtp">
+                                           <p class="choiseforotp">Choose your option to get OTP</p>
+                                        <div class="form-check otpCheck">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label otpCheckLable" for="exampleRadios1">
+                                              <img src="assets/images/login/envelope.svg" alt="">
+                                              <span>****bu@gamail.com</span>
+                                            </label>
+                                          </div>
+                                          <div class="form-check otpCheck">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label otpCheckLable" for="exampleRadios1">
+                                              <img src="assets/images/login/iphone.svg" alt="">
+                                              <span>*******2563</span>
+                                            </label>
+                                          </div>
+                                          <div class="form-check otpCheck">
+                                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label otpCheckLable" for="exampleRadios1">
+                                              <img src="assets/images/login/iphone.svg" alt="">
+                                              <span>*******6320</span>
+                                            </label>
+                                          </div>
+                                       </div>
+                                       
+                                        <button type="submit" class="otpSend" id="otpSend">Send OTP</button>
+                                      
+                                   </div>
+                               </div>
+                               <!--Part2 End-->
+
+                               <!--Part3-->
+                               <div class="otpverified" id="OtpVerification" style="display: none;">
+                                <div class="regstionvery">
+                                  <div class="Varification">
+                                      <img src="assets/images/login/Changepassword2.svg" alt="">
+                                      <h5>Verification</h5>
+                                  </div>
+                                  <div class="Registration">
+                                      <img src="assets/images/login/clipboard2.svg" alt="">
+                                      <h5>Registration</h5>
+                                  </div>
+                              </div>
+                                   <div class="verifiedmessage">
+                                       <p>We sent a OTP to your mobile. Please enter the OTP & verified your information</p>
+                                   </div>
+                                   <div class="WritverifiedNumber">
+                                       <input type="text">
+                                       <input type="text">
+                                       <input type="text">
+                                       <input type="text">
+                                       <input type="text">
+                                       <input type="text">
+                                   </div>
+                                   <button type="submit" class="SubmitOtp">Submit for verification</button>
+                               </div>
+                               <!--Part3 End-->
+
+                               <!--Part4-->
+                               <div class="generatPass" style="display: none;">
+                                <div class="regstionvery">
+                                  <div class="Varification">
+                                      <img src="assets/images/login/Changepassword2.svg" alt="">
+                                      <h5>Verification</h5>
+                                  </div>
+                                  <div class="Registration restioncolor">
+                                      <img src="assets/images/login/clipboardcolor.svg" alt="">
+                                      <h5>Registration</h5>
+                                  </div>
+                              </div>
+                                <div class="form-group logingroup row">
+                                  <div class="col-sm-12">
+                                      <img src="assets/images/login/001-user.svg" class="userIcon" alt="">
+                                    <input type="text" class="form-control logininput" value="BABU12563">
+                                  </div>
+                                </div>
+
+                                <p class="passGenerate">Generate your password</p>
+
+                              <div class="form-group logingroup row">
+                                <div class="col-sm-12">
+                                    <img src="assets/images/login/passwordicon22.svg" class="userIcon" alt="">
+                                  <input type="password" class="form-control logininput" placeholder="Password">
+                                </div>
+                              </div>
+                              <div class="form-group logingroup row">
+                                  <div class="col-sm-12">
+                                      <img src="assets/images/login/passwordicon22.svg" class="userIcon" alt="">
+                                    <input type="password" class="form-control logininput" placeholder="Confirm Password">
+                                  </div>
+                              </div>
+                              <p class="passCharacter">Minimum 8 characters</p>
+                                <button type="submit" class="RegisterLogin">Register & Login</button>
+                               </div>
+
+                                <!--Part4 End-->
+
+                            </div> 
+                        </div>
+
+
+                        <div class="tab-pane fade" id="pills-repass" role="tabpanel" aria-labelledby="pills-repass-tab">
+                            <div class="loginschool  text-center">
+                                <img src="assets/images/login/MUBClogo.svg" alt="">
+                                
+                                <h3> Monipur uchcha Vidyalaya and college</h3>
+                                </div>
+                                <div class="logindetails resetpassHead text-center" id="resetpassHead">
+                                  <p class="restpassoption">Reset Password</p>
+
+                                  <!---Part1 -->
+                                  <div class="restpasswordHide">
+                                    
+                                      <div class="form-group logingroup row">
+                                        <div class="col-sm-12">
+                                            <img src="assets/images/login/001-user.svg" class="userIcon" alt="">
+                                          <input type="text" class="form-control logininput" placeholder="Enter id number">
+                                        </div>
+                                      </div>
+                                      <div class="form-group logingroup row">
+                                          <div class="col-sm-12">
+                                              <img src="assets/images/login/loginMobil.svg" class="userIcon" alt="">
+                                            <input type="text" class="form-control logininput" placeholder="Enter phone number or email">
+                                          </div>
+                                        </div>
+
+                                        <!-- <div id="app" class="forgetcaptcha">
+                                          <div class="visible"></div>
+                                        <div class="g-recaptcha" data-sitekey=" 6LfLMnEUAAAAACpoc9UXVz7ywg6CqgK6y3YGR_8t"></div>
+                                          <div class="invisible"></div>
+                                        </div> -->
+                                        <button type="submit" class="forgetOtp">Send OTP</button>
+                                  </div>
+                                  <!---Part1 End -->
+
+                                  <!---Part2 -->
+                                  <div class="restpasMessage" style="display: none;">
+                                    <div class="restpasMessageInner">
+                                      <img src="assets/images/login/mobileicon.svg" alt="">
+
+                                      <h4>We sent a OTP in your mobile</h4>
+                                      <h5>Enter the OTP to</h5>
+
+                                      <button type="button" id="restpassforgot">Reset password</button>
+                                    </div>
+                                  </div>
+                                  <!---Part2 End -->
+
+                                  <!---Part3 -->
+                                  <div class="conformresetpass" style="display: none;">
+                                    <div class="form-group logingroup row">
+                                      <div class="col-sm-12">
+                                          <img src="assets/images/login/001-user.svg" class="userIcon" alt="">
+                                        <input type="password" class="form-control logininput finalpass" placeholder="Enter OTP">
+                                      </div>
+                                    </div>
+                                    <div class="form-group logingroup row">
+                                      <div class="col-sm-12">
+                                          <img src="assets/images/login/passwordicon22.svg" class="userIcon" alt="">
+                                        <input type="password" class="form-control logininput finalpass" placeholder="New Password">
+                                      </div>
+                                    </div>
+                                    <div class="form-group logingroup row">
+                                        <div class="col-sm-12">
+                                            <img src="assets/images/login/passwordicon22.svg" class="userIcon" alt="">
+                                          <input type="password" class="form-control logininput finalpass" placeholder="Confirm Password">
+                                        </div>
+                                    </div>
+                                    <p class="passCharacter conformOtp">Minimum 8 characters</p>
+                                      <button type="submit" class="Registerconform">Reset password & login</button>
+                                  </div>
+                                  <!---Part3 End-->
+
+                                </div>  
+                        </div>
+                      </div>
+                      <ul class="nav nav-pills logintab mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item loginpage">
+                          <a class="nav-link active" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">
+                              <img src="assets/images/login/login.svg" alt="">
+                              <h5>Login Here</h5>
+                          </a>
+                        </li>
+                        <li class="nav-item loginreg">
+                          <a class="nav-link" id="pills-reg-tab" data-toggle="pill" href="#pills-reg" role="tab" aria-controls="pills-reg" aria-selected="false">
+                            <img src="assets/images/login/clipboard.svg" alt="">
+                            <h5>Register Here</h5>
+                          </a>
+                        </li>
+                        <li class="nav-item logpassChange">
+                          <a class="nav-link" id="pills-repass-tab" data-toggle="pill" href="#pills-repass" role="tab" aria-controls="pills-repass" aria-selected="false">
+                            <img src="assets/images/login/Changepassword.svg" alt="">
+                            <h5>Forgot Password</h5>
+                          </a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mt-5">
+              <div class="loginfooter text-center">
+                  <p>A Product of <a href="">ADDIE Soft Ltd</a></p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?onload=onLoaded'></script><script  src="./script.js"></script>
+
+    <script src="assets/js/vendors.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/loginslider.js"></script>
+    
+    <script>
+        var app = new Vue({
+        el: '#app',
+        data: {
+        },
+        methods: {
+        }
+        })
+    </script>
+
+</body>
+</html>

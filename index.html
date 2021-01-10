@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Parent Portal</title>
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+     <script src="https://kit.fontawesome.com/0701ececad.js" crossorigin="anonymous"></script>
+    <!-- page css -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Core css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+
+            <!-- Header START -->
+            <section id="mainnav">
+                <div class="header">
+                    <div class="logo logo-dark">
+                        <a href="index.html">
+                            <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                            <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="logo logo-white">
+                        <a href="index.html">
+                            <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                            <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="nav-wrap">
+                        <ul class="nav-left">
+                            <li class="desktop-toggle">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/images/logo/humbarger.png" alt="">
+                                </a>
+                            </li>
+                            <li class="mobile-toggle">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/images/logo/humbarger.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="scholnameDestop" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                    Monipur uchcha Vidyalaya and college
+                                </a>
+                                <a class="scholnameMobil" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                    <img src="assets/images/logo/Odhyyon.svg" alt="">
+                               </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <!-- <li class="">
+                                <a href="javascript:void(0);" data-toggle="modal" data-target="#quick-view">
+                                    <i class="anticon anticon-appstore">setting</i>
+                                </a>
+                            </li> -->
+                            <li class="dropdown dropdown-animated scale-left">
+                                <a href="javascript:void(0);" data-toggle="dropdown">
+                                    <img src="assets/images/avatars/Announcement.png" alt="">
+                                </a>
+                            </li>
+                            <li class="dropdown dropdown-animated scale-left">
+                                <a href="javascript:void(0);" data-toggle="dropdown">
+                                    <img src="assets/images/avatars/messaging.png" alt="">
+                                </a>
+                            </li>
+                            <li class="dropdown dropdown-animated scale-left">
+                                <a href="javascript:void(0);" data-toggle="dropdown">
+                                    <img src="assets/images/avatars/notification.png" alt="">
+                                </a>
+                                <div class="dropdown-menu pop-notification">
+                                    <div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
+                                        <p class="text-dark font-weight-semibold m-b-0">
+                                            <i class="anticon anticon-bell"></i>
+                                            <span class="m-l-10">Notification</span>
+                                        </p>
+                                        <a class="btn-sm btn-default btn" href="javascript:void(0);">
+                                            <small>View All</small>
+                                        </a>
+                                    </div>
+                                    <div class="relative">
+                                        <div class="overflow-y-auto relative scrollable" style="max-height: 300px">
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-blue avatar-icon">
+                                                        <i class="anticon anticon-mail"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">You received a new message</p>
+                                                        <p class="m-b-0"><small>8 min ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-cyan avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">New user registered</p>
+                                                        <p class="m-b-0"><small>7 hours ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-red avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">System Alert</p>
+                                                        <p class="m-b-0"><small>8 hours ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 ">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-gold avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">You have a new update</p>
+                                                        <p class="m-b-0"><small>2 days ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="dropdown dropdown-animated scale-left text-center">
+                                <div class="pointer avatarmobil" data-toggle="dropdown">
+                                    <div class="avatar avatar-image avatar-imageTop m-h-10 m-r-15">
+                                        <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                    </div>
+                                    <div class="avatorname">
+                                        <p class="m-b-0 text-dark font-weight-semibold">Marshall Nichols</p>
+                                    </div>
+                                </div>
+                                <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                    <a href="" class="dropdown-item d-block p-h-15 p-v-10" data-toggle="modal" data-target=".bd-example-modal-lgChangepass">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img src="assets/images/Icon/Changepassword.svg" alt="">
+                                                <span class="m-l-10">Change Password</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img src="assets/images/Icon/logout.svg" alt="">
+                                                <span class="m-l-10">Logout</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                   
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    
+                </div>    
+                <!-- Header END -->
+     <!---------------Change password--------------->
+     <div class="modal fade bd-example-modal-lgChangepass" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content modalPassword">
+                <div class="passwordHead">
+                    <p style="margin-bottom: -3px;">An asterisk (<span class="Madatory">*</span>) indicates mandatory fields.</p>
+                    <p>Current password and new password cannot be same.</p>
+                </div>
+              <div class="passwordmainBody">
+                <div class="modal-header changepassHead">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Change Password</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group row">
+                        <label  class="col-sm-3 col-form-label">Enter Current Password <span class="Madatory">*</span></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Enter Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label  class="col-sm-3 col-form-label">Enter New Password <span class="Madatory">*</span></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Enter Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label  class="col-sm-3 col-form-label">Confirm New Password<span class="Madatory">*</span></label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="Enter Name" required>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer passwordFooter">
+                    <button type="button" class="btn btn-secondary pPortalclose" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+      <!-----Change password---->
+                <!---Header Mobile-->
+                <div class="header headermobil mt-5">
+                    
+                    <div class="nav-wrap">
+                        <ul class="nav-leftMobil">
+                            <li class="navSchool">
+                                <a class="scholnameMobilNav" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                    Monipur uchcha Vidyalaya and college
+                                </a>
+                                
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="dropdown dropdown-animated scale-left text-center">
+                                <div class="pointer" data-toggle="dropdown">
+                                    <div class="avatar avatar-image avatar-imageTop">
+                                        <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                    </div>
+                                    <!-- <div class="avatar avatar-image avatar-imageTop ">
+                                        <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                    </div> -->
+                                </div>
+                                <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                    <a href="" class="dropdown-item d-block p-h-15 p-v-10" data-toggle="modal" data-target=".bd-example-modal-lgChangepass">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img src="assets/images/Icon/Changepassword.svg" alt="">
+                                                <span class="m-l-10">Change Password</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <img src="assets/images/Icon/logout.svg" alt="">
+                                                <span class="m-l-10">Logout</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                   
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>  
+            </section>  
+            <!---Header Mobile End-->
+
+
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/dashboard.svg" alt="">
+                                </span>
+                                <span class="title">Dashboard</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li class="active">
+                                    <a href="index.html">Default</a>
+                                </li>
+                                <li>
+                                    <a href="index-crm.html">CRM</a>
+                                </li>
+                                <li>
+                                    <a href="index-e-commerce.html">E-commerce</a>
+                                </li>
+                                <li>
+                                    <a href="index-projects.html">Projects</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                   <img src="assets/images/sidebaricon/StudentSide.svg" alt="">
+                                </span>
+                                <span class="title">Student Profile</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/Icon/studentprofile.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="studentinfo.html">Student Profile</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/Icon/Updateinfo.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="updateStudentinfo.html">Update Student Inf</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/Icon/ECA.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="Eca.html">ECA</a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/Feesside.svg" alt="">
+                                </span>
+                                <span class="title">Fees</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/fessicon/feespayment.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="fess.html">Fee Payment</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/fessicon/paymenthistory.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="paymentHistory.html">Payment History</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/fessicon/yearlydetails.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="paymentYearly.html">Individually Yearly Details</a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+									<img src="assets/images/sidebaricon/Attendanceside.svg" alt="">
+								</span>
+                                <span class="title">Attendance</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/currattendance.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="fess.html">Current Summary</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/recentattendance.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="paymentHistory.html">Recent Attendance</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/yearlydetails2.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="paymentYearly.html">Attendance Details</a></span>
+                                </li>
+                            </ul>
+                            
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/Resultside.svg" alt="">
+                                </span>
+                                <span class="title">Exam & Result</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/currattendance.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="resultAnalysis.html">Result Analysis</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/currattendance.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="currentResult.html">Current Result</a></span>
+                                </li>
+                                <li>
+                                    <span class="icon-holderSav"></span>
+                                        <img src="assets/images/attendace/yearlydetails2.svg" alt="">
+                                     </span>
+                                    <span class="submenuname"><a href="previousResult.html">Previous Result</a></span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/communicationside.svg" alt="">
+                                </span>
+                                <span class="title">Communication</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li>
+                                    <a href="basic-table.html">Basic Table</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="requestDashbord.html">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/requestside.svg" alt="">
+                                </span>
+                                <span class="title">Request</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li>
+                                    <a href="chartist.html">Chartist</a>
+                                </li>
+                                
+                            </ul> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/LMSSide.svg" alt="">
+                                </span>
+                                <span class="title">LMS</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li>
+                                    <a href="profile.html">Profile</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <img src="assets/images/sidebaricon/TimeTable.svg" alt="">
+                                </span>
+                                <span class="title">Time Table</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                            <!-- <ul class="dropdown-menu">
+                                <li>
+                                    <a href="login-1.html">Login 1</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                
+               
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="row mb-3">
+                        <div class="col-lg-12 mobilpadding">
+                            <div class="stickyNav">
+                            <nav class="navbar navbar-expand-lg navbar-light" id="MobileToggle">
+                                
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                  <ul class="navbar-nav ModuleNav">
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="index.html">
+                                          <img src="assets/images/Icon/dashboardicon.svg" alt=""> <br>
+                                          Dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="studentdashbord.html">
+                                        <img src="assets/images/Icon/Student.svg" alt=""> <br>
+                                          Student Profile
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fessDashbord.html">
+                                          <img src="assets/images/Icon/Fees.svg" alt=""> <br>
+                                            Fees
+                                          </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="attendancedashbord.html">
+                                        <img src="assets/images/Icon/Attendance.svg" alt=""> <br>
+                                          Attendance
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="resultDashbord.html">
+                                            <img src="assets/images/Icon/result.svg" alt=""> <br>
+                                            Exam & Result
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="messageDashbord.html">
+                                            <img src="assets/images/Icon/Communication.svg" alt=""> <br>
+                                            Message
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="requestDashbord.html">
+                                            <img src="assets/images/Icon/Request.svg" alt=""> <br>
+                                            Request
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="lmsDashbord.html">
+                                            <img src="assets/images/Icon/LMS.svg" alt=""> <br>
+                                            LMS
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <img src="assets/images/Icon/TimeTable.svg" alt=""> <br>
+                                            Time Table
+                                        </a>
+                                      </li>
+                                  </ul>
+                                </div>
+                              </nav>
+                              <div class="hideshow text-center">
+                                  <!-- <img id="menuToggle" src="assets/images/Icon/down-chevron.svg" alt=""> -->
+                                  <button type="button" id="menuToggle" class="Hidemybtn" >Hide</button>
+
+                                  <button type="button" id="menuToggle2" class="Hidemybtn" style="display: none;" >Show</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!---dashbord start---->
+                    <!-- <div class="row">
+                        <div class="col-lg-12 m-2">
+                            <marquee behavior="" direction="" scrollamount="3" style="font-size: 18px; color: #000; font-weight: bold; background-color: #ddd; padding: 10px 0; ">
+                                আপনার বেতন পরিশোধ করুন
+                            </marquee>
+                        </div>
+                    </div> -->
+
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="studentprofile">
+                                <h3>Student Profile</h3>
+                                <div class="studentprofileParent">
+                                    <div class="parentsImg">
+                                        <img src="assets/images/avatars/thumb-8.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="studentprofileParentName">
+                                    <h4>Jaima Jarnaj Snigdha</h4>
+                                    <h5>ID<span>25420</span></h5>
+                                    <h6>Class: <span>Six</span></h6>
+                                </div>
+                                <div class="ParentprofileButton text-center">
+                                    <a href="studentdashbord.html" style="background-color: #1F8DDD; color: #fff;">View</a>
+                                    <!-- <a href="">Edit</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="payment">
+                                <h3>Next Payment</h3>
+                                <div class="totalamount text-center">
+                                    <p>Taka <span>103580</span></p>
+                                </div>
+                                <div class="fessdashbord">
+                                    <!-- <div class="fessdashbordleft">
+                                        <h4>Payment Type</h4>
+                                        <h5>Tuition Fee</h5>
+                                    </div> -->
+                                    <!-- <div class="fessdashbordRight">
+                                        <h4>Due Date</h4>
+                                        <h5>23 March, 2019</h5>
+                                    </div> -->
+                                </div>
+                                <div class="paymentbutton text-center">
+                                    <a href="pay2fee.html">Make Payment</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="attendance">
+                                <h3>Attendence</h3>
+                                <div id="donutchart" ></div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-3">
+                            <div class="smsList">
+                                <span>SMS List</span> <a href="" class="viewButton">View all</a>
+                                <div class="classlist">
+                                    <div class="innerclasslist">
+                                        <div class="subjectName">
+                                            <p>Object Oriented Programing </p>
+                                        </div>
+                                        <div class="classTime text-center">
+                                            <h5>New</h5>
+                                            <h6>12:05AM</h6>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="innerclasslist">
+                                        <div class="subjectName">
+                                            <p>OComputer System</p>
+                                        </div>
+                                        <div class="classTime text-center">
+                                            <h5>Yesterday</h5>
+                                            <h6>12:05AM</h6>
+                                        </div>
+                                    </div>
+                                    <div class="innerclasslist">
+                                        <div class="subjectName">
+                                            <p>Mathematical Analysis</p>
+                                        </div>
+                                        <div class="classTime text-center">
+                                            <h5>12-03-2020</h5>
+                                            <h6>12:05AM</h6>
+                                        </div>
+                                    </div>
+                                    <div class="innerclasslist">
+                                        <div class="subjectName">
+                                            <p>Mathematical Analysis</p>
+                                        </div>
+                                        <div class="classTime text-center">
+                                            <h5>12-03-2020</h5>
+                                            <h6>12:05AM</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-12 col-lg-8">
+                            <div class="calender protalcalender">
+                                <h3>Academic Calender</h3>
+                                <ul class="month">
+                                  <li>
+                                    <h1>January</h1>
+                                    <h2>2016</h2>
+                                  </li>
+                                  <span class="prev">&#10094;</span>
+                                  <span class="next">&#10095;</span>
+                                </ul>
+                                <ul class="weeks">
+                                  <li>Sa</li>
+                                  <li>Su</li>
+                                  <li>Mo</li>
+                                  <li>Tu</li>
+                                  <li>We</li>
+                                  <li>Th</li>
+                                  <li>Fr</li>
+                                </ul>
+                                <ul class="days">
+                              
+                                </ul>
+                              </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                            <div class="class-routine">
+                                <h3>Class Routine</h3>
+                                <div class="routineListmain">
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="routinemain">
+                                        <div class="calenderroutine">
+                                            <div class="calenderIcon text-center">
+                                                <img src="assets/images/calenderroutine.svg" alt="">
+                                            </div>
+                                            <div class="calenderdateRoutine text-center">
+                                                <h4>Sunday</h4>
+                                                <p>02.02.2019</p>
+                                            </div>
+                                        </div>
+                                        <div class="Subjectroutine">
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    <a href=""><img src="assets/images/arrow.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="subjectroutineUp">
+                                                <div class="subjecttime text-center">
+                                                    <p>09:00</p>
+                                                </div>
+                                                <div class="subjectname">
+                                                    <p>English</p>
+                                                </div>
+                                                <div class="backicon">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="footer">
+                    <div class="footer-content">
+                        <p class="m-b-0">Copyright ©2020 Addie Soft Ltd. All rights reserved.</p>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+            <!-- Search Start-->
+            
+            <!-- Search End-->
+
+            <!-- Quick View START -->
+            
+            <!-- Quick View END -->
+        </div>
+    </div>
+
+    
+
+
+
+
+    <!-- Core Vendors JS -->
+    <script src="assets/js/vendors.min.js"></script>
+    
+    <!-- page js -->
+    <!-- <script src="assets/vendors/chartjs/Chart.min.js"></script> -->
+    <!-- <script src="assets/js/pages/dashboard-default.js"></script> -->
+
+    <!-- Core JS -->
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+   
+   
+   
+
+<script>
+        //punblic variables
+  var calender = document.querySelector(".calender"),//container of calender
+    topDiv = document.querySelector('.month'),
+    monthDiv = calender.querySelector('h1'),//h1 of monthes
+    yearDiv = calender.querySelector('h2'),//h2 for years
+    weekDiv = calender.querySelector(".weeks"),//week container
+    dayNames = weekDiv.querySelectorAll("li"),//dayes name
+    dayItems = calender.querySelector(".days"),//date of day container
+    prev = calender.querySelector(".prev"),
+    next = calender.querySelector(".next"),
+
+    // date variables
+    years = new Date().getFullYear(),
+    monthes = new Date(new Date().setFullYear(years)).getMonth(),
+    lastDayOfMonth = new Date(new Date(new Date().setMonth(monthes + 1)).setDate(0)).getDate(),
+    dayOfFirstDateOfMonth = new Date(new Date(new Date().setMonth(monthes)).setDate(1)).getDay(),
+
+    // array to define name of monthes
+    monthNames = ["January", "February", "March", "April", "May", "June",
+                  "July", "August", "September", "October", "November", "December"],
+    //colors = ['#FFA549', '#ABABAB', '#1DABB8', '#953163', '#E7DF86', '#E01931', '#92F22A', '#FEC606', '#563D28', '#9E58DC', '#48AD01', '#0EBB9F'],
+    i,//counter for day before month first day in week
+    x,//counter for prev , next
+    counter;//counter for day of month  days;
+
+//display dayes of month in items
+function days(x) {
+  'use strict';
+  dayItems.innerHTML = "";
+  monthes = monthes + x;
+
+  /////////////////////////////////////////////////
+  //test for last month useful while prev ,max prevent go over array
+  if (monthes > 11) {
+    years = years + 1;
+    monthes = new Date(new Date(new Date().setFullYear(years)).setMonth(0)).getMonth();
+  }
+  if (monthes < 0) {
+    years = years - 1;
+    monthes = new Date(new Date(new Date().setFullYear(years)).setMonth(11)).getMonth();
+  }
+   next,prev
+  lastDayOfMonth = new Date(new Date(new Date(new Date().setFullYear(years)).setMonth(monthes + 1)).setDate(0)).getDate();
+
+  dayOfFirstDateOfMonth = new Date(new Date(new Date(new Date().setFullYear(years)).setMonth(monthes)).setDate(1)).getDay();
+
+  /////////////////////////////////////////////////
+  yearDiv.innerHTML = years;
+  monthDiv.innerHTML = monthNames[monthes];
+  for (i = 0; i <= dayOfFirstDateOfMonth; i = i + 1) {
+    if (dayOfFirstDateOfMonth === 6) { break; }
+    dayItems.innerHTML += "<li> - </li>";
+  }
+  for (counter = 1; counter <= lastDayOfMonth; counter = counter + 1) {
+    dayItems.innerHTML += "<li>" + (counter) + "</li>";
+  }
+   
+  topDiv.style.background = colors[monthes];
+  dayItems.style.background = colors[monthes];
+  
+  if (monthes === new Date().getMonth() && years === new Date().getFullYear()) {
+    
+    dayItems.children[new Date().getDate() + dayOfFirstDateOfMonth].style.background = "#c00";
+  }
+}
+prev.onclick = function () {
+  'use strict';
+  days(-1);//decrement monthes
+};
+next.onclick = function () {
+  'use strict';
+  days(1);//increment monthes
+};
+days(0);
+
+//end
+</script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per month'],
+      ['Absent',     11],
+      ['Present',      10],
+      
+    ]);
+
+    var options = {
+      title: '',
+      pieHole: 0.3,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+    chart.draw(data, options);
+  }
+</script>
+<script type="text/javascript">
+    $('.side-nav-menu').on('click', 'li', function(){
+        $('.side-nav-menu li.inneractive').removeClass('inneractive');
+        $(this).addClass('inneractive');
+    })
+</script>
+
+<!-- <script type="text/javascript">
+    $('.ModuleNav').on('click', 'li', function(){
+        $('.ModuleNav li.active').removeClass('active');
+        $(this).addClass('active');
+    })
+</script> -->
+
+<script type="text/javascript">
+    $('.NavhideShow').on('click', 'li', function(){
+        $('.stickyNav .navHideActive').removeClass('navHideActive');
+        $(this).addClass('navHideActive');
+    })
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menuToggle").click(function(){
+            $("#MobileToggle").fadeToggle();
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menuToggle2").click(function(){
+            $("#MobileToggle").fadeToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $(".Hidemybtn").click(function(){
+            $(".Hidemybtn").show();
+            $(this).hide();
+        });
+    });
+</script>
+
+</body>
+
+</html>

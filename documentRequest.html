@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Parent Portal</title>
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+
+    <!-- page css -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Core css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header">
+                <div class="logo logo-dark">
+                    <a href="index.html">
+                        <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="logo logo-white">
+                    <a href="index.html">
+                        <img src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                        <img class="logo-fold" src="assets/images/logo/Odhyyon.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="nav-wrap">
+                    <ul class="nav-left">
+                        <li class="desktop-toggle">
+                            <a href="javascript:void(0);">
+                                <img src="assets/images/logo/humbarger.png" alt="">
+                            </a>
+                        </li>
+                        <li class="mobile-toggle">
+                            <a href="javascript:void(0);">
+                                <img src="assets/images/logo/humbarger.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="scholnameDestop" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                Monipur uchcha Vidyalaya and college
+                            </a>
+                            <a class="scholnameMobil" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                <img src="assets/images/logo/Odhyyon.svg" alt="">
+                           </a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <!-- <li class="">
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#quick-view">
+                                <i class="anticon anticon-appstore">setting</i>
+                            </a>
+                        </li> -->
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/Announcement.png" alt="">
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/messaging.png" alt="">
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <img src="assets/images/avatars/notification.png" alt="">
+                            </a>
+                            <div class="dropdown-menu pop-notification">
+                                <div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-dark font-weight-semibold m-b-0">
+                                        <i class="anticon anticon-bell"></i>
+                                        <span class="m-l-10">Notification</span>
+                                    </p>
+                                    <a class="btn-sm btn-default btn" href="javascript:void(0);">
+                                        <small>View All</small>
+                                    </a>
+                                </div>
+                                <div class="relative">
+                                    <div class="overflow-y-auto relative scrollable" style="max-height: 300px">
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-blue avatar-icon">
+                                                    <i class="anticon anticon-mail"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You received a new message</p>
+                                                    <p class="m-b-0"><small>8 min ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-cyan avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">New user registered</p>
+                                                    <p class="m-b-0"><small>7 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-red avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">System Alert</p>
+                                                    <p class="m-b-0"><small>8 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 ">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-gold avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You have a new update</p>
+                                                    <p class="m-b-0"><small>2 days ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="dropdown dropdown-animated scale-left text-center">
+                            <div class="pointer avatarmobil" data-toggle="dropdown">
+                                <div class="avatar avatar-image avatar-imageTop m-h-10 m-r-15">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                                <div class="avatorname">
+                                    <p class="m-b-0 text-dark font-weight-semibold">Marshall Nichols</p>
+                                </div>
+                            </div>
+                            <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                            <span class="m-l-10">Account Setting</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-project"></i>
+                                            <span class="m-l-10">Projects</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                            <span class="m-l-10">Logout</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>    
+            <!-- Header END -->
+
+            <!---Header Mobile-->
+            <div class="header headermobil mt-5">
+                
+                <div class="nav-wrap">
+                    <ul class="nav-leftMobil">
+                        <li class="navSchool">
+                            <a class="scholnameMobilNav" href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                Monipur uchcha Vidyalaya and college
+                            </a>
+                            
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li class="dropdown dropdown-animated scale-left text-center">
+                            <div class="pointer" data-toggle="dropdown">
+                                <div class="avatar avatar-image avatar-imageTop">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                                <div class="avatar avatar-image avatar-imageTop ">
+                                    <img src="assets/images/avatars/thumb-8.jpg"  alt="">
+                                </div>
+                            </div>
+                            <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                            <span class="m-l-10">Account Setting</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-project"></i>
+                                            <span class="m-l-10">Projects</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                            <span class="m-l-10">Logout</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>    
+            <!---Header Mobile End-->
+
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu scrollable">
+                        <li class="nav-item dropdown open">
+                            <a class="dropdown-toggle" href="requestDashbord.html">
+                                <span class="icon-holder">
+                                    <img src="assets/images/fessicon/icon_dashboard.svg" alt="">
+                                </span>
+                                <span class="title">Home</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="newRequest.html">
+                                <span class="icon-holder">
+                                   <img src="assets/images/attendace/currattendance.svg" alt="">
+                                </span>
+                                <span class="title">Leave Request</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>     
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="meetingRequest.html">
+                                <span class="icon-holder">
+                                   <img src="assets/images/attendace/currattendance.svg" alt="">
+                                </span>
+                                <span class="title">Meeting Request</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>     
+                        </li>
+                        <li class="nav-item dropdown inneractive">
+                            <a class="dropdown-toggle" href="documentRequest.html">
+                                <span class="icon-holder">
+                                   <img src="assets/images/attendace/currattendance.svg" alt="">
+                                </span>
+                                <span class="title">Document Request</span>
+                                <!-- <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span> -->
+                            </a>     
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                
+
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    <div class="row mb-3">
+                        <div class="col-lg-12 mobilpadding">
+                            <nav class="navbar navbar-expand-lg navbar-light stickyNav" id="MobileToggle">
+                                
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                  <ul class="navbar-nav ModuleNav">
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="index.html">
+                                          <img src="assets/images/Icon/dashboardicon.svg" alt=""> <br>
+                                          Dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="studentdashbord.html">
+                                        <img src="assets/images/Icon/Student.svg" alt=""> <br>
+                                          Student Profile
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="fessDashbord.html">
+                                          <img src="assets/images/Icon/Fees.svg" alt=""> <br>
+                                            Fees
+                                          </a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="attendancedashbord.html">
+                                        <img src="assets/images/Icon/Attendance.svg" alt=""> <br>
+                                          Attendance
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="resultDashbord.html">
+                                            <img src="assets/images/Icon/result.svg" alt=""> <br>
+                                            Exam & Result
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="messageDashbord.html">
+                                            <img src="assets/images/Icon/Communication.svg" alt=""> <br>
+                                            Message
+                                        </a>
+                                      </li>
+                                      <li class="nav-item active">
+                                        <a class="nav-link" href="requestDashbord.html">
+                                            <img src="assets/images/Icon/Request.svg" alt=""> <br>
+                                            Request
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="lmsDashbord.html">
+                                            <img src="assets/images/Icon/LMS.svg" alt=""> <br>
+                                            LMS
+                                        </a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <img src="assets/images/Icon/TimeTable.svg" alt=""> <br>
+                                            Time Table
+                                        </a>
+                                      </li>
+                                  </ul>
+                                </div>
+                              </nav>
+                              <div class="hideshow text-center">
+                                  <!-- <img id="menuToggle" src="assets/images/Icon/down-chevron.svg" alt=""> -->
+                                  <button type="button" id="menuToggle" class="Hidemybtn" >Hide</button>
+
+                                  <button type="button" id="menuToggle2" class="Hidemybtn" style="display: none;" >Show</button>
+                              </div>
+                            <!-- <div class="protalModule">
+                                <ul>
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">StudentProfile</a></li>
+                                    <li><a href="">Attendance</a></li>
+                                    <li><a href="">Fees</a></li>
+                                    <li><a href="">Result</a></li>
+                                    <li><a href="">Request</a></li>
+                                    <li><a href="">Notice & SMS</a></li>
+                                    <li><a href="">Curriculam</a></li>
+                                    <li><a href="">Information</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!----------------Content Start----------------->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="fessPayment">
+                                <div class="requestTable">
+                                   <div class="requestTableHead">
+                                    <h3>Document Request</h3>
+                                   </div>
+                                    <div class="addstuinfBtn requestTablBtn text-right">
+                                        <div class="reqheadNumber">
+                                            <div class="form-group row">
+                                                <label  class="col-sm-3 col-form-label">Item</label>
+                                                <div class="col-sm-8">
+                                                  <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>10</option>
+                                                    <option>25</option>
+                                                    <option>50</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                        </div>
+                                         <div class="requestbtnHead">
+                                            <a href="" data-toggle="modal" data-target=".bd-example-modal-lg" >Add New Request</a>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="RequestSearch">
+                                  
+                                        <div class="reqSeach">
+                                            <input type="text" class="form-control" placeholder="Search Request">
+                                        </div>
+                                        <div class="reqSeach">
+                                            <input type="text" class="form-control" placeholder="Search Date">
+                                        </div>
+                                        <div class="reqSeach">
+                                            <input type="text" class="form-control" placeholder="Search Status">
+                                        </div>
+                                   
+                                </div>
+                                <div class="table-responsive headerFixTable">
+                                    <table id="data-table" class="table table-striped">
+                                        <thead class="tableHead">
+                                          <tr>
+                                            <th scope="col" >Request Type</th>
+                                            <th scope="col" >Date of Submission</th>
+                                            <th scope="col" >Status</th>
+                                            <th scope="col" >Reason</th>
+                                            <th scope="col" >Action</th>
+                                          </tr>
+                                        </thead>
+
+                                        <tbody>
+                                          
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="rejected">Rejected</p></td>
+                                            <td ><p class="due">Due to incomplete</p></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="rejected">Rejected</p></td>
+                                            <td ><p class="due">Due to incomplete</p></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="rejected">Rejected</p></td>
+                                            <td ><p class="due">Due to incomplete</p></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="pending">Pending</p></td>
+                                            <td ></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="approved">Approved</p></td>
+                                            <td ></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Document</td>
+                                            <td >5-04-2020</td>
+                                            <td ><p class="approved">Approved</p></td>
+                                            <td ></td>
+                                            <td ><a href="" style="margin-right: 5px;"><img src="assets/images/request/edit.svg" alt=""></a><a href=""><img src="assets/images/request/delet.svg" alt=""></a></td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                      </table>
+                                  </div>
+                                  <div class="pegaeNation">
+                                      <div class="paginationmain">
+                                          <p>Displaying 1-10 out of 100</p>
+                                      </div>
+                                      <div class="paginationmain text-right">
+                                          <ul>
+                                              <li><a href="" class="pageActive">1</a></li>
+                                              <li><a href="">2</a></li>
+                                              <li><a href="">3</a></li>
+                                              <li><a href="">4</a></li>
+                                              <li><a href="">5</a></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                   <!---Request Modal---->
+
+                                   <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                      <div class="modal-content pPortalModal">
+                                        <div class="modal-header pPortalModalHead">
+                                          <h5 class="modal-title text-center" id="exampleModalScrollableTitle">Document Request</h5>
+                                        </div>
+                                        <div class="modal-body pPortalModalBody">
+                                          <form>
+                                              <div class="form-group row">
+                                                <label  class="col-sm-3 col-form-label">Request For</label>
+                                                <div class="col-sm-8">
+                                                  <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>ID Card</option>
+                                                    <option>TC</option>
+                                                    <option>Fees Book</option>
+                                                    <option>NOC</option>
+                                                  </select>
+                                                </div>
+                                              </div>
+                                              <div class="form-group row">
+                                                <label  class="col-sm-3 col-form-label">Date</label>
+                                                <div class="col-sm-8">
+                                                    <input type="date" class="form-control">
+                                                </div>
+                                              </div>
+                                             
+                                              <div class="form-group row">
+                                                <label  class="col-sm-3 col-form-label">Reason</label>
+                                                <div class="col-sm-8">
+                                                    <textarea name="" class="form-control" id=""></textarea>
+                                                </div>
+                                              </div>
+                                          </form>
+                                        </div>
+                                        <div class="modal-footer pPortalModalFooter">
+                                          <button type="button" class="btn btn-secondary pPortalclose" data-dismiss="modal">Close</button>
+                                          <button type="button" class="btn btn-primary">Save</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!---Reques Modal---->
+                                  
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------Content Start---------------->
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="footer">
+                    <div class="footer-content">
+                        <p class="m-b-0">Copyright ©2020 Addie Soft Ltd. All rights reserved.</p>
+                    </div>
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+            <!-- Search Start-->
+            
+            <!-- Search End-->
+
+            <!-- Quick View START -->
+            
+            <!-- Quick View END -->
+        </div>
+    </div>
+
+    
+<!-- Core Vendors JS -->
+    <script src="assets/js/vendors.min.js"></script>
+
+    <!-- Core JS -->
+    <script src="assets/js/app.min.js"></script>
+
+<script type="text/javascript">
+    $('.side-nav-menu').on('click', 'li', function(){
+        $('.side-nav-menu li.inneractive').removeClass('inneractive');
+        $(this).addClass('inneractive');
+    })
+</script>
+<!-- <script type="text/javascript">
+    $('.ModuleNav').on('click', 'li', function(){
+        $('.ModuleNav li.active').removeClass('active');
+        $(this).addClass('active');
+    })
+</script> -->
+<script type="text/javascript">
+    $('.NavhideShow').on('click', 'li', function(){
+        $('.stickyNav .navHideActive').removeClass('navHideActive');
+        $(this).addClass('navHideActive');
+    })
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menuToggle").click(function(){
+            $("#MobileToggle").fadeToggle();
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menuToggle2").click(function(){
+            $("#MobileToggle").fadeToggle();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $(".Hidemybtn").click(function(){
+            $(".Hidemybtn").show();
+            $(this).hide();
+        });
+    });
+</script>
+</body>
+
+</html>

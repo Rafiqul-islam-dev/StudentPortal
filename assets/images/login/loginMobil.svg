@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24">
+  <g id="loginMobil" transform="translate(-96)">
+    <g id="Group_3" data-name="Group 3" transform="translate(96)">
+      <path id="Path_59" data-name="Path 59" d="M114,0H98c-1.1,0-2,.674-2,1.5v21c0,.828.9,1.5,2,1.5h16c1.1,0,2-.672,2-1.5V1.5C116,.674,115.1,0,114,0Zm-8,22.5c-1.1,0-2-.672-2-1.5s.9-1.5,2-1.5,2,.672,2,1.5S107.1,22.5,106,22.5Zm8-4.5H98V3h16Z" transform="translate(-96)" fill="#c1c1c1"/>
+    </g>
+  </g>
+</svg>
